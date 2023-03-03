@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>STOP WATCH</h1>
+    </header>
+    <main>
+      <div class="timer-div">
+        <p>
+          <span id="hour">00</span>
+          :
+          <span id="minute">00</span>
+          :
+          <span id="second">00</span>
+          .
+          <span id="millisecond">0</span>
+        </p>
+        <div class="button-div">
+          <button id="start" class="btn">START</button>
+          <button id="stop" class="btn">STOP</button>
+          <button id="reset" class="btn">RESET</button>
+        </div>
+      </div>
+      <div class="lapses-div">
+        <h2>LAPSES</h2>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+        <p class="lap-text"></p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
