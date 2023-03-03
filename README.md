@@ -1,4 +1,6 @@
-This is a simple Stopwatch.
+This is a simple Stopwatch App.
+
+- Live Site URL: [https://acgeoffrey.github.io/stopwatch/]
 
 ## Table of contents
 
