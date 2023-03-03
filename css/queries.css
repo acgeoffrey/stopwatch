@@ -1,0 +1,184 @@
+/******************************/
+/* BELOW 1775px  */
+/******************************/
+@media (max-width: 111em) {
+  .timer-div p {
+    font-size: 5rem;
+  }
+
+  .timer-div p span {
+    font-size: 7rem;
+  }
+
+  #millisecond {
+    font-size: 6rem;
+  }
+
+  .btn {
+    font-size: 3rem;
+    padding: 1.5rem 3.5rem;
+  }
+}
+
+/******************************/
+/* BELOW 1306px (Smaller desktops) */
+/******************************/
+@media (max-width: 82em) {
+  .timer-div {
+    width: 70%;
+  }
+
+  .lapses-div {
+    width: 22%;
+  }
+
+  .timer-div p {
+    font-size: 4rem;
+  }
+
+  .timer-div p span {
+    font-size: 6rem;
+  }
+
+  #millisecond {
+    font-size: 5rem;
+  }
+
+  .btn {
+    font-size: 2.5rem;
+    padding: 1.2rem 3rem;
+  }
+
+  .lap-text {
+    font-size: 2.5rem;
+  }
+}
+
+/******************************/
+/* BELOW 792px (Small Tablets) */
+/******************************/
+
+@media (max-width: 50em) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .timer-div p {
+    font-size: 3rem;
+  }
+
+  .timer-div p span {
+    font-size: 5rem;
+  }
+
+  #millisecond {
+    font-size: 4rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+    padding: 1rem 2.2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .lap-text {
+    font-size: 2rem;
+  }
+}
+
+/******************************/
+/* BELOW 610px (Mobile) */
+/******************************/
+
+@media (max-width: 38em) {
+  h1 {
+    font-size: 4rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .timer-div {
+    width: 80%;
+    height: 35vh;
+  }
+
+  .timer-div p {
+    width: 80%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .timer-div p span {
+    font-size: 4rem;
+  }
+
+  .button-div {
+    gap: 1rem;
+  }
+
+  #millisecond {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 1.8rem;
+  }
+
+  h2 {
+    margin: 2rem 0;
+  }
+
+  .lapses-div {
+    width: 80%;
+    height: 40vh;
+    overflow: scroll;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .lapses-div::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .lapses-div {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .lap-text {
+    font-size: 2.5rem;
+  }
+}
+
+/******************************/
+/* BELOW 374px  */
+/******************************/
+
+@media (max-width: 23em) {
+  .timer-div p {
+    width: 80%;
+    font-size: 2rem;
+  }
+
+  .timer-div p span {
+    font-size: 3.3rem;
+  }
+
+  #millisecond {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 1rem 1.3rem;
+  }
+}
