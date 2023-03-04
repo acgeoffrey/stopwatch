@@ -46,17 +46,33 @@ main {
 
 .timer-div p {
   /* padding-left: 5rem; */
-  width: 70%;
-  /* text-align: center; */
+  /* width: 100%; */
   font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  /* gap: 0.5rem; */
 }
 
 .timer-div p span {
+  width: 14rem;
+  text-align: center;
   font-size: 9.5rem;
 }
 
+.timer-div p .colon {
+  width: 2rem;
+  align-self: center;
+  /* padding: auto 0.5rem; */
+}
+
 #millisecond {
+  width: 7rem;
   font-size: 7rem;
+  color: #d48b97;
+  align-self: flex-end;
+  padding-bottom: 2%;
 }
 
 /****** BUTTON STYLING *******/
@@ -81,6 +97,16 @@ main {
   background-color: white;
   color: #7db9b6;
   box-shadow: 1px 1px 6px 2px;
+}
+
+#stop {
+  background-color: #e2b86a;
+  border: 3px solid #a17b33;
+}
+
+#stop:hover {
+  color: #e2b86a;
+  background-color: white;
 }
 
 #reset {
@@ -111,4 +137,6 @@ h2 {
   color: white;
   text-align: center;
   font-size: 3rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }

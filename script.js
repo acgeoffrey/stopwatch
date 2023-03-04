@@ -37,6 +37,7 @@ stopEl.addEventListener("click", function () {
     lapseTextEl[lapseCount].textContent = `${
       lapseCount + 1
     }. ${hour}:${minute}:${second}`;
+    lapseTextEl[lapseCount].style.borderBottom = "2px solid #383244a1";
     lapseCount++;
   }
 });
@@ -56,6 +57,7 @@ resetEl.addEventListener("click", function () {
 
   for (let i = 0; i < lapseTextEl.length; i++) {
     lapseTextEl[i].textContent = "";
+    lapseTextEl[i].style.borderStyle = "none";
   }
 });
 

@@ -4,13 +4,20 @@
 @media (max-width: 111em) {
   .timer-div p {
     font-size: 5rem;
+    /* text-align: center; */
   }
 
   .timer-div p span {
+    width: 10rem;
     font-size: 7rem;
   }
 
+  .timer-div p .colon {
+    width: 1.5rem;
+  }
+
   #millisecond {
+    width: 6rem;
     font-size: 6rem;
   }
 
@@ -37,10 +44,12 @@
   }
 
   .timer-div p span {
+    width: 9rem;
     font-size: 6rem;
   }
 
   #millisecond {
+    width: 5rem;
     font-size: 5rem;
   }
 
@@ -71,6 +80,10 @@
     font-size: 5rem;
   }
 
+  .timer-div p .colon {
+    width: 1.2rem;
+  }
+
   #millisecond {
     font-size: 4rem;
   }
@@ -97,27 +110,33 @@
   h1 {
     font-size: 4rem;
     margin: 2rem 0;
-    text-align: center;
+    /* text-align: center; */
   }
   main {
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .timer-div {
     width: 80%;
     height: 35vh;
+    gap: 2rem;
   }
 
   .timer-div p {
-    width: 80%;
+    /* width: 80%; */
     font-size: 2.5rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .timer-div p span {
+    width: 6rem;
     font-size: 4rem;
+  }
+
+  .timer-div p .colon {
+    width: 1rem;
   }
 
   .button-div {
@@ -125,6 +144,7 @@
   }
 
   #millisecond {
+    width: 3rem;
     font-size: 3rem;
   }
 
@@ -180,5 +200,9 @@
   .btn {
     font-size: 1.2rem;
     padding: 1rem 1.3rem;
+  }
+
+  .lap-text {
+    font-size: 2rem;
   }
 }
