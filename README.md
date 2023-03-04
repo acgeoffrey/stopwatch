@@ -13,7 +13,7 @@ This is a simple Stopwatch App.
 
 ![](images/1.png)
 ![](images/2.png)
-![](images/mobile.png)
+![](images/mobile.jpg)
 
 ### Built with
 

@@ -19,6 +19,7 @@ let millisecond = 0;
 let isTimerOn = false;
 
 let lapseCount = 0;
+let lapseArr = [];
 let isStartClickedAgain = false;
 
 startEl.addEventListener("click", function () {
@@ -34,9 +35,18 @@ stopEl.addEventListener("click", function () {
   isTimerOn = false;
   if (isStartClickedAgain) {
     isStartClickedAgain = false;
-    lapseTextEl[lapseCount].textContent = `${
-      lapseCount + 1
-    }. ${hour}:${minute}:${second}`;
+
+    if (minute == 0) {
+      lapseArr.unshift(`${second}s ${millisecond}ms`);
+    } else if (hour == 0) {
+      lapseArr.unshift(`${minute}m ${second}s ${millisecond}ms`);
+    } else {
+      lapseArr.unshift(`${hour}Hr ${minute}Min ${second}Sec`);
+    }
+
+    for (let i = 0; i < lapseArr.length; i++) {
+      lapseTextEl[i].textContent = lapseArr[i];
+    }
     lapseTextEl[lapseCount].style.borderBottom = "2px solid #383244a1";
     lapseCount++;
   }
