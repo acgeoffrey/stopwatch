@@ -66,6 +66,7 @@ resetEl.addEventListener("click", function () {
   millisecondEl.innerHTML = "0";
 
   for (let i = 0; i < lapseTextEl.length; i++) {
+    lapseArr = [];
     lapseTextEl[i].textContent = "";
     lapseTextEl[i].style.borderStyle = "none";
   }
